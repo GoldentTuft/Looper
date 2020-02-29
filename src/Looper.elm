@@ -7,7 +7,7 @@ type Num
 
 new : Int -> Int -> Int -> Num
 new n start end =
-    Num n start end
+    set n (Num 0 start end)
 
 
 add : Int -> Num -> Num
